@@ -3,10 +3,14 @@
 
 #title{
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
+}
+
+#title2{
+    font-weight: bold;
 }
 .links{
     position: relative;
@@ -30,7 +34,7 @@
         width: 100%;
         transform-origin: left;
         transform: scaleX(0);
-        background-color: purple;
+        background-color: blue;
         transition: transform 0.5s ease;
     }
     &:hover::after{
@@ -39,7 +43,7 @@
     }
 }
 
-ul {
+.navbar{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
@@ -53,11 +57,11 @@ ul {
     width: 100%;
 }
 
-li {
+.navbar li {
     float: left;
 }
 
-li a {
+.navbar li a {
     display: block;
     color: white;
     text-align: center;
